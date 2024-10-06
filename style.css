@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'RedHat-Regular';
+    src: url(./assets/fonts/static/RedHatText-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'RedHat-SemiBold';
+    src: url(./assets/fonts/static/RedHatText-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'RedHat-Bold';
+    src: url(./assets/fonts/static/RedHatText-Bold.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'RedHat-SemiBold';
+    padding: 50px;
+}
+
+.cart-image{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    background: url(./assets/images/image-waffle-desktop.jpg);
+}
+
+/* .cart-image > img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+} */
+
+.cart-image > .add-to-cart{
+    position: absolute;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: white;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 25px;
+    z-index: 2;
+    color: #000;
+    font-family: inherit;
+}
